@@ -10,6 +10,8 @@
    Maiores informações podem ser encontradas no site do projeto: http://funcoeszz.net/ 
 
    Este aplicativo é um projeto independente, que trabalha como um "front-end" para as funções.
+   
+   O app pode ser baixado gratuitamente na App Store: http://itunes.apple.com/br/app/funcoes-zz/id492258680?mt=8
 </p>
 
 <h1>
@@ -24,4 +26,6 @@
    More information can be found on the project website: http://funcoeszz.net/ 
 
    This application is an independent project that works as a "front end" for the functions.
+   
+   The app can be downloaded for free on the App Store: http://itunes.apple.com/br/app/funcoes-zz/id492258680?mt=8
 </p>
