@@ -26,7 +26,7 @@
     }
        
     zz.common.executeFunction = function(zzfunction, arguments) {
-        if (zzfunction && arguments) {
+        if (zzfunction) {
             zz.common.remoteClient.open('GET',zz.common.baseUrl+'zzfunc='+zzfunction+'&arguments='+encodeURIComponent(arguments), false);
             var returnValue = '';
             zz.common.remoteClient.onload = function() {
