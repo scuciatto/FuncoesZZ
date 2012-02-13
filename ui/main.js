@@ -11,10 +11,18 @@
         // creating the tableview with the functions
         remoteFuncList = zz.common.getFunctionList(false);
         
+        searchField = Titanium.UI.createSearchBar({
+            barColor:'white',
+            separatorColor:'black'
+        });
+        
         var funcTable = Ti.UI.createTableView({    
             backgroundColor:'transparent',
+            backgroundImage:'images_common/background.png',
             style:Ti.UI.iPhone.TableViewStyle.GROUPED,
-            bottom:50
+            bottom:50,
+            search:searchField,
+            filterAttribute:'zzfunction',
         });
         
         for (var i = 0; i < remoteFuncList.length; i++) {
